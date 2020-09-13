@@ -11,7 +11,7 @@ html {
 
 }
 .header-right{
-    display: inline-block;
+    /* display: inline-block; */
     float: right;
     padding-right: 5px;
     margin-top: 5px;
@@ -40,6 +40,10 @@ html {
   font-weight: bold;
   border-radius: 2px;
     
+}
+#submit:hover{
+    box-shadow: 1px lightgray;
+    cursor: pointer;
 }
 #google{
     height: 95px;
